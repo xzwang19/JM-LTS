@@ -11,7 +11,7 @@ random = 1
 set.seed(random)
 
 ASSOC = "re" ##### data structure: "re" for shared random effects structure; other options: "cv" for current value structure and "sp" for independent structure
-METH = "mcdp_cv" ###### analysis model: "mcdp_cv" for MCDP+CV; other options: "mcdp_re" for MCDP+RE and "mcdp_sp" for separate models
+METH = "mcdp_re" ###### analysis model: "mcdp_cv" for MCDP+CV; other options: "mcdp_re" for MCDP+RE and "mcdp_sp" for separate models
 
 #################################
 
